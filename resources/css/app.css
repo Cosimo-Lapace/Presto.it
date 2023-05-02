@@ -1,0 +1,842 @@
+@import 'bootstrap';
+@import 'bootstrap-icons';
+@import 'style.css';
+@import 'buttoneffect';
+@import 'imieiannunci';
+
+
+:root {
+    --white: #FFFCF2;
+    --main: #D0DCD2;
+    --main-dark: #443730;
+    --main-darkplus:#b19d8a;
+    --main-light: #26c49f;
+    --dark: #0e2e50;
+    --neutral: #666565;
+    --textcolor: #649165;
+    --buttoncolor: #198754;
+    --font:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+     font-family: var(--font);
+   /*  background-color: var(--main); */
+    background-image: linear-gradient(to bottom, #e8eee9, #e8eee9, #e8eee9, #e8eee9, #e8eee9);
+    height: 100%;
+    width: 100%;
+}
+.textcolorhover{
+    font-size: 30px;
+}
+.textcolorhover:hover{
+color: var(--textcolor);
+}
+/* utility */
+.backgroundwhite{
+    background-color: var(--white);
+}
+/* nav */
+.mynavcolor{
+    background-color:var(--white) !important;
+    margin: 50px 100px;
+    transition: all 0.3s;
+}
+
+.iconmenunavhover2:hover{
+    background-color: rgb(244, 244, 244);
+    padding: 18px 15px;
+    transition: all 0.8s;
+}
+/* end nav */
+/* filter */
+
+/* login */
+/* end login */ /* da importare in navbar */
+.boxcardall{
+    -webkit-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+    -moz-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+    box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+}
+.buttoncarousel{
+    background-color: var(--textcolor);
+    padding: 29px;
+    border-radius: 120px;
+}
+.buttoncarouselmyannunci{
+    background-color: var(--textcolor);
+    padding: 22px;
+    border-radius: 120px;
+}
+/* homepage head */
+.texth3head{
+    font-size: 59px;
+}
+.buttonhead{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    padding-top: 12px ;
+    padding-bottom:12px;
+    padding-right:33px ;
+    padding-left: 33px;
+
+}
+.buttonmodal{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+
+}
+/* endhomepage head */
+.myannunciprice{
+    color: var(--dark)
+}
+.green{
+    background-color: var(--main-light);
+}
+.green:hover{
+    background-color: var(--white);
+    color: black;
+}
+.red{
+    background-color: red;
+}
+.red:hover{
+    background-color: var(--white);
+    color: black;
+}
+.divcardimg{
+    position: relative;
+}
+.spancardimg{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+.spaniconeyelogin{
+    position: absolute;
+    font-size: 13px;
+    top: 37px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.price{
+    color: var(--main-light);
+    font-weight: bold;
+}
+.divcardbody{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+}
+.divcategoria ,.divcategoria2 {
+    border-top:  var(--main-light) 1px dashed ;
+    padding-bottom: 4px;
+}
+.divcategoria{
+border-right: var(--main-light) 1px dashed ;
+}
+.pointer{
+    cursor: pointer;
+    pointer-events: auto;
+}
+.iconads{
+    font-size: 32px;
+}
+.iconads:hover{
+    color: var(--main-dark);
+}
+.backgroundmain{
+    background-color: #f4f6f5;
+}
+
+
+.laberl{
+    letter-spacing: 1.5px;
+}
+.labelborder{
+    border-color: var(--main-darkplus);
+}
+  .titolo-revisore{
+    margin-top: 150px;
+    letter-spacing: 5px;
+    color:  var(--textcolor);
+    text-shadow:1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    display: block;
+    left: 0; position:relative;
+    z-index: 100;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(.215,.62,.385,1);
+}
+
+.mycarosel{
+    padding: 0;
+    margin-top: 300px;
+    margin-bottom: 40px;
+}
+
+
+.div1carousel:hover {
+    background-color: var(--white);
+    transition: all 0.4s;
+  }
+
+.page-link.active, .active > .page-link {
+    background-color: var(--buttoncolor);
+    border-color: var(--buttoncolor);
+}
+.page-link {
+    color: var(--buttoncolor);
+}
+
+.icon-nav{
+    margin-right: 0px;
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    font-size: 23px;
+    color: var(--textcolor)!important;
+}
+.divads{
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+.divfilter{
+    margin-top: 90px;
+}
+.carousel-dark .carousel-control-prev-icon, .carousel-dark .carousel-control-next-icon {
+    filter: invert(0);
+}
+.fixborder{
+    border: transparent;
+}
+.cont-offcanvas {
+    overflow-y: auto;
+    max-height: 850px;
+  }
+
+  .cont-offcanvasright{
+    overflow-y: auto;
+    max-height: 900px;
+  }
+  @media screen and (max-width: 1392px){
+    .cont-offcanvas {
+        overflow-y: auto;
+        max-height: 750px;
+      }
+
+      .cont-offcanvasright{
+        overflow-y: auto;
+        max-height: 750px;
+      }
+  }
+  @media screen and (max-width:1300px){
+    .profiloresponsivecard2{
+        width: 40%;
+    }
+    .profiloresponsivecard{
+        width: 100%;
+    }
+    .effect-4 {
+margin-left: 1rem !important;
+    }
+    .cont-dettagli{
+        margin-top: 150px !important;
+    }
+    }
+    @media screen and (max-width:1200px){
+        .profiloresponsivecard2{
+            width: 40%;
+        }
+        .profiloresponsivecard{
+            width: 100%;
+        }
+        .effect-4 {
+    margin-left: 0px !important;
+        }
+        .effect-5 {
+            margin-left: 0px !important;
+                }
+                .filteradvancedwelcomeresponsive{
+                    padding: 0px !important;
+                }
+                .buttonresp{
+                    margin-left: 0px !important;
+                    letter-spacing: 1px;
+                }
+
+        }
+
+@media screen and (max-width:1100px){
+.profiloresponsivecard2{
+    width: 50%;
+}
+.profiloresponsivecard{
+    width: 100%;
+}
+.effect-4 {
+    margin-left: 0px !important;
+}
+.effect-5{
+ margin-left: 0px !important;
+}
+.cont-dettagli{
+   width: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    /* navbar */
+.fixed-top{
+    position: static;
+}
+.navresponsive{
+    width: 100%;
+    margin: 0 !important;
+}
+.iconmenunavhover2{
+    padding: 14px 11px;
+    background-color: rgb(244, 244, 244);
+}
+.anavresponsive{
+    margin-right: 44px;
+}
+/* endnav */
+/* carousel */
+    .buttonhead{
+        font-size: 10px;
+        color: rgb(0, 0, 0);
+        padding-top: 8px ;
+        padding-bottom:8px;
+        padding-right:8px ;
+        padding-left: 8px;
+        margin: 10px 0px !important;
+    }
+    .mycarosel{
+        margin-top: 50px;
+    }
+    .leftcarouselresponsive{
+        width: 100%;
+    }
+    .responsivemargincard{
+        width: 55%;
+    }
+/* endcarousel */
+    /* filter */
+    .filter{
+        background-color:var(--white) !important;
+        width: 100%;
+        margin:0px;
+        padding: 30px;
+    }
+
+    .modalresponsive{
+        margin: 0px !important;
+    }
+
+    /* endfilter */
+    /* cardwelcome */
+    .card{
+        width: 125%;
+        margin-left: -10%;
+    }
+    .responsivemargincard{
+        margin-right: 5%;
+    }
+  .spancardimg{
+    width: 34%;
+    top: -10px;
+    left: 13px;
+    border-radius: 10px;
+    padding: 1px 6px;
+  }
+  /* endcardwelcome */
+  /* login */
+  .divimagelogin{
+    display: none !important;
+  }
+  .spaniconeyelogin{
+    top: 37px;
+  }
+  .divloginresponsive{
+    width: 100%;
+    height: 18%;
+    margin-bottom: 5%;
+ }
+ .login-cont{
+    margin-top: -50px !important;
+    margin-left: 54px !important;
+    margin-right: 0px !important;
+ }
+ /* endlogin */
+ /* inserisciannunci */
+ .divads{
+    margin-top: 50px;
+ }
+ /* lavora con noi */
+ .form-revisor{
+    margin-left: 25%;
+    /* end lavora con noi */
+    /* annunci */
+ }
+    .cardresponsive{
+       margin-left: 3% !important;
+       margin-right: 5% !important;
+
+    }
+    .filter-annunci{
+        width: 140%;
+    }
+    .cont-offcanvas{
+        width: 25%;
+    }
+
+    .sectionannunci{
+        margin-top: -30px !important;
+    }
+    .filters{
+        display:none;
+    }
+    .cont-profilo{
+        margin-top: 35px;
+    }
+    .profiloresponsivecard{
+        width: 300% !important;
+        margin-left: -180px !important;
+    }
+    .profiloresponsivecard2{
+        width: 85% !important;
+        margin: 0 auto !important;
+    }
+    .profiloresponsive{
+       width: 100%;
+    }
+    .cont-dettagli{
+        margin-top: 28px !important;
+    }
+ }
+
+@media screen and (max-width: 852px) {
+    .profiloresponsive{
+        width: 80% !important;
+    }
+    .profiloresponsivecard{
+        width: 80% ;
+        margin-right: 0px !important;
+        margin-left: -55px !important;
+    }
+    .profiloresponsivecard2{
+        width: 89% !important;
+        margin-left:145px  !important;
+    }
+
+}
+@media screen and (max-width: 767px) {
+
+
+    .filters{
+        display:none;
+    }
+    .cardresponsive{
+        margin-left: 3% !important;
+        margin-right: 5% !important;
+        width: 35%;
+    }
+    .titolo-revisore{
+        margin:0px
+    }
+    /* profilo */
+.profiloresponsivecard{
+    width: 120% !important;
+    margin-left: 5px;
+}
+    /* endprofilo */
+    .profiloresponsivecard{
+        width: 65% !important;
+        margin-left: 180px !important;
+    }
+
+    .profiloresponsivecard2{
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media screen and (max-width: 704px) {
+    #divfiler3,#divfiler2,#divfiler1{
+        padding-left: 0px !important;
+    }
+
+}
+
+
+
+@media screen and (max-width: 672px) {
+    .filters{
+        display: none;
+    }
+
+    .filter{
+        padding: 20px;
+    }
+    .titolo-revisore{
+        margin:0px
+    }
+    .mycarosel{
+        margin: 0px;
+    }
+    .divmargin{
+        margin:40px;
+        margin-left: 10% !important;
+    }
+   .cont-profilo{
+    margin: 0px;
+    margin-left: 8%;
+    margin-top: 20px;
+   }
+   .profilobodyresponsive{
+width: 80% !important;
+   }
+   .profiloresponsive{
+    width: 140% !important ;
+    margin: 0px !important;
+   }
+   .profiloresponsivecard{
+    width: 90% !important;
+    margin-left: 45px !important;
+}
+
+.profiloresponsivecard2{
+    width: 190% !important;
+    margin-right: 100px !important;
+}
+
+
+}
+
+@media screen and (max-width: 650px) {
+    .name-revisor{
+        margin: 0px;
+    }
+    .profiloresponsive{
+        width: 90%;
+        margin: 0px;
+       }
+       .profiloresponsivecard{
+        width: 90% !important;
+        margin-left: 63px !important;
+    }
+
+    .profiloresponsivecard2{
+        width: 100% !important;
+        margin-right: 0px !important;
+        margin-left: 80px !important;
+    }
+}
+
+@media screen and (max-width: 628px) {
+    #divfiler3,#divfiler2,#divfiler1{
+        padding-right: 5px !important;
+    }
+
+}
+
+
+
+@media screen and (max-width: 612px) {
+
+    .profiloresponsive{
+        width: 110%;
+       }
+}
+
+@media screen and (max-width: 607px) {
+    #divfiler3,#divfiler2,#divfiler1{
+        padding-right: 3px !important;
+    }
+
+}
+@media screen and (max-width: 601px) {
+    #divfiler3,#divfiler2,#divfiler1{
+        padding-right: 2px !important;
+    }
+
+}
+@media screen and (max-width: 598px) {
+    #divfiler3,#divfiler2,#divfiler1{
+        padding-right: 1px !important;
+    }
+
+}
+@media screen and (max-width: 595px) {
+    #divfiler3,#divfiler2,#divfiler1{
+        padding-right: 0px !important;
+    }
+
+}
+@media screen and (max-width: 592px) {
+    .filter {
+        padding: 19px !important;
+    }
+
+}
+@media screen and (max-width: 590px) {
+    .filter {
+        padding: 17px !important;
+    }
+
+}
+@media screen and (max-width: 586px) {
+    .filter {
+        padding: 10px !important;
+    }
+
+}
+
+
+@media screen and (max-width: 575px) {
+    .card{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    .responsivemargincard{
+        margin-left: 2.5px !important;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .offcanvas-header{
+        padding-right: 0px;
+        padding-left: 10px;
+        width: 25%;
+    }
+    .profiloresponsive{
+        width: 200% !important;
+        margin: 0px;
+       }
+       .profiloresponsivecard{
+        width: 65% !important;
+        margin-left: 50px !important;
+    }
+
+    .profiloresponsivecard2{
+        width: 90% !important;
+        margin-right: 0px !important;
+        margin-left: -20px !important;
+    }
+    .divmargin{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    }
+    @media screen and (max-width: 574px) {
+        .profiloresponsive{
+            width: 180% !important;
+            margin: 0px;
+           }
+           .profiloresponsivecard{
+            width: 85% !important;
+            margin-left: 10px !important;
+        }
+
+        .profiloresponsivecard2{
+            width: 200% !important;
+            margin-right: 0px !important;
+            margin-left: -20px !important;
+        }
+        }
+    @media screen and (max-width: 573px) {
+        .container-fluid{
+            display: inline;
+        }
+        .profiloresponsive{
+            width: 145% !important;
+            margin: 0px;
+           }
+           .profiloresponsivecard{
+            width: 75% !important;
+            margin-left: 70px !important;
+        }
+
+        .profiloresponsivecard2{
+            width: 100% !important;
+            margin-right: 0px !important;
+            margin-left: 20px !important;
+        }
+        }
+@media screen and (max-width: 465px){
+    .cardresponsive{
+        margin-right: 30% !important;
+    }
+    .profiloresponsive{
+        width: 145% !important;
+        margin: 0px;
+       }
+       .profiloresponsivecard{
+        width: 75% !important;
+        margin-left: 70px !important;
+    }
+
+    .profiloresponsivecard2{
+        width: 100% !important;
+        margin-right: 0px !important;
+        margin-left: 20px !important;
+    }
+}
+@media screen and (max-width: 440px){
+    .cardresponsive{
+        margin-right: 30% !important;
+    }
+    .profiloresponsive{
+        width: 145% !important;
+        margin: 0px;
+       }
+       .profiloresponsivecard{
+        width: 75% !important;
+        margin-left: 70px !important;
+    }
+
+    .profiloresponsivecard2{
+        width: 100% !important;
+        margin-right: 0px !important;
+        margin-left: 20px !important;
+    }
+}
+@media screen and (max-width: 432px){
+    .cardresponsive{
+        margin-right: 30% !important;
+    }
+    .profiloresponsive{
+        width: 145% !important;
+        margin: 0px;
+       }
+       .profiloresponsivecard{
+        width: 75% !important;
+        margin-left: 70px !important;
+    }
+
+    .profiloresponsivecard2{
+        width: 100% !important;
+        margin-right: 0px !important;
+        margin-left: 20px !important;
+    }
+    .buttonnavresp{
+        margin-right: -20px;
+
+    }
+}
+@media screen and (max-width: 432px){
+
+    .buttonnavresp{
+        margin-right: -30px;
+
+    }
+}
+@media screen and (max-width: 413px){
+
+    .buttonnavresp{
+        margin-right: -33px;
+
+    }
+}
+@media screen and (max-width: 407px){
+    .cardresponsive{
+        margin-right: 30% !important;
+    }
+    .profiloresponsive{
+        width: 145% !important;
+        margin: 0px;
+       }
+       .profiloresponsivecard{
+        width: 75% !important;
+        margin-left: 70px !important;
+    }
+
+    .profiloresponsivecard2{
+        width: 100% !important;
+        margin-right: 0px !important;
+        margin-left: 20px !important;
+    }
+    .buttonnavresp{
+        margin-right: -35px;
+
+    }
+}
+@media screen and (max-width: 400px){
+    .cardresponsive{
+        margin-right: 30% !important;
+    }
+    .profiloresponsive{
+        width: 155% !important;
+        margin: 0px;
+       }
+       .profiloresponsivecard{
+        width: 85% !important;
+        margin-left: 35px !important;
+    }
+
+    .profiloresponsivecard2{
+        width: 100% !important;
+        margin-right: 0px !important;
+        margin-left: 5px !important;
+    }
+    .buttonnavresp{
+        margin-right: -35px;
+
+    }
+}
+@media screen and (max-width: 380px){
+    .cardresponsive{
+        margin-right: 30% !important;
+    }
+    .profiloresponsive{
+        width: 165% !important;
+        margin: 0px;
+       }
+       .profiloresponsivecard{
+        width: 85% !important;
+        margin-left: 25px !important;
+    }
+
+    .profiloresponsivecard2{
+        width: 100% !important;
+        margin-right: 0px !important;
+        margin-left: -5px !important;
+    }
+    .buttonnavresp{
+        margin-right: -35px;
+        margin-left: 0px !important;
+
+    }
+}
+@media screen and (max-width: 360px){
+    .cardresponsive{
+        margin-right: 30% !important;
+    }
+    .profiloresponsive{
+        width: 165% !important;
+        margin: 0px;
+       }
+       .profiloresponsivecard{
+        width: 85% !important;
+        margin-left: 25px !important;
+    }
+
+    .profiloresponsivecard2{
+        width: 100% !important;
+        margin-right: 0px !important;
+        margin-left: -5px !important;
+    }
+    .buttonnavresp{
+        margin-right: -38px;
+        margin-left: -5px !important;
+
+    }
+}

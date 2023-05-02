@@ -1,0 +1,470 @@
+.title-carousel{
+  color:  var(--textcolor);
+}
+.p-carousel{
+  font-size: xx-large;
+  letter-spacing: 3px;
+
+}
+.title{
+    margin-top: 30px;
+    margin-bottom:20px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    color:  var(--textcolor);
+    text-shadow:1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+.container-form{
+   background-color:var( --white) !important;
+    padding:30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+    -moz-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+    box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+
+}
+.exit{
+    position:relative;
+    left:90%;
+    margin-top: 10px;
+}
+/* Login-register*/
+.icons-auth{
+  font-size: 40px;
+  color:  var(--textcolor);
+  margin-bottom: 25px;
+}
+.icons-auth2:hover{
+  transform: rotateY(360deg);
+  transition: transform 3s;
+  color: var(--main-darkplus);
+}
+.login-cont{
+  margin-top: 90px;
+}
+.titolo-cont{
+  font-size: 50px;
+  font-weight: bold;
+  color:  var( --main-darkplus);
+  letter-spacing: 10px;
+  text-shadow:1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+
+
+}
+.gradient-custom-2 {
+    background: var(--main-darkplus);
+    }
+
+@media (min-width: 700px) {
+.gradient-custom-2 {
+border-top-right-radius: .3rem;
+border-bottom-right-radius: .3rem;
+}
+}
+.card-login{
+    margin-top: 100px;
+}
+/* End login-register */
+
+/* FILTER */
+.filter{
+background-color:var(--white) !important;
+border: 2px solid var(--main-darkplus);
+margin:50px;
+padding: 20px;
+border-radius: 30px;
+-webkit-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+-moz-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+
+}
+.icona{
+position:absolute;
+top: 40px;
+bottom: 20px;
+right: 20px;
+}
+
+.btn{
+margin-top: 25px;
+}
+.label{
+font-size: 18px;
+font-weight: bold;
+letter-spacing:3px;
+color: var(--main-dark);
+}
+/* Team */
+.container-team{
+  margin-top: 50px;
+}
+.title-team{
+  letter-spacing: 10px;
+  color:  var(--textcolor);
+  font-weight: bold;
+  font-size: 45px;
+  text-shadow:1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+.text-team{
+  font-size: 30px;
+}
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+.member{
+  color:  var(--textcolor);
+  font-weight: bold;
+}
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid var(--textcolor);
+}
+.team-member h4, .team-member .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+.icons-links{
+  font-size: 40px;
+  color:black;
+  margin-bottom: 10px;
+}
+.icons-links2:hover{
+  transform: rotateY(360deg);
+  transition: transform 3s;
+  color: var(--textcolor);
+}
+/* CARD annunci */
+.card{
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+.card-titolo{
+  font-size: 32px;
+  color: var(--main-dark);
+}
+
+.prezzo{
+  font-weight: bold;
+  font-size: 22px;
+  color: darkgreen;
+}
+.card-text{
+  font-weight: bold;
+  font-size: 19px;
+  color: var(--main-darkplus);
+}
+.title-dett-ann{
+  letter-spacing: 10px;
+  font-weight: bold;
+  color:  var(--textcolor);
+  padding-top: 40px;
+  text-shadow:1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+
+}
+.dett-titolo{
+  font-size: 37px;
+  color: var(--main-dark);
+}
+.card-text-dett{
+  font-size: 21px;
+  font-weight: bold;
+  color: var(--main-darkplus);
+}
+/* LENGUAGE */
+.lenguage{
+  font-size: 25px;
+  color:  var(--textcolor);
+}
+.text-lang{
+  font-weight: bold;
+  float:right;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+
+/* REVISOR */
+.bottoni{
+  position: absolute;
+}
+.campanellina {
+  font-size: 25px;
+  margin-right: 20px;
+  color:  var(--textcolor);
+}
+.revisor-img{
+  width: 7px;
+  border-left: 3px solid var(--main-darkplus);
+  margin-right: 60px;
+}
+
+.icona-persona{
+  font-size: 35px;
+  color:  var(--textcolor);
+}
+.name-revisor {
+  margin-right: 30px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style:oblique;
+  color:  var(--textcolor);
+  font-size: 20px;
+
+}
+.token{
+  display: none;
+}
+.card-revisor{
+  -webkit-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+    -moz-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+    box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+
+  background-color:var( --white) !important;
+}
+.richiedi{
+  color:  var(--textcolor);
+  text-shadow:1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+.form-revisor{
+  margin-left: 25%;
+}
+.revisorimg-input{
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--main-dark);
+}
+/* NAVBAR */
+.presto-title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style:oblique;
+  font-weight: bold;
+  color:  var(--textcolor);
+  font-size: 30px;
+}
+.nav{
+  font-size: 30px;
+  margin:30px;
+}
+.offcanvas-title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style:oblique;
+  color:  var(--textcolor);
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  margin:30px;
+}
+.cont-offcanvas{
+  margin-top: 30px;
+  border-radius: 40px;
+  background-color:var(--white) !important;
+}
+.profilo-dropdown{
+  font-family:monospace;
+  font-weight: bold;
+  font-size: 20px;
+  color:  var(--textcolor);
+}
+.dropdown-menu{
+  border-radius: 20px;
+  background-color:var(--white) !important;
+}
+.dropdown-item{
+  font-family:monospace;
+  font-size: 25px;
+}
+/* FOOTER */
+.icone{
+  color:  var(--textcolor);
+ font-size: 40px;
+}
+.text-footer{
+  color:  var(--textcolor);
+  letter-spacing: 10px;
+}
+.icone-contatti{
+  color:  var(--textcolor);
+  font-size: 30px;
+}
+.footer{
+  background-color:var(--white) !important;
+}
+.span{
+  color:  var(--textcolor);
+}
+.testo{
+  font-weight: bold;
+}
+/* FORGOT PASSWORD */
+.card-forgot {
+  background: hsla(0, 0%, 100%, 0.55);
+  backdrop-filter: blur(30px);
+}
+.container-forgot{
+  margin-top: 100px;
+}
+.social:hover{
+    background-color: #768393;
+}
+.socialfooter:hover{
+    color: #b7cdb7;
+}
+
+.spanbellposition{
+    position: absolute;
+
+}
+
+/* Lavora con noi */
+.text-1{
+  color:red;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+.text-work{
+  color: var(--main-dark);
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.text-2{
+    color:var(--textcolor);
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.text-carousel{
+  font-weight: bold;
+  color: var(--main-dark);
+  font-size: 20px;
+}
+.img-icone{
+  float:left;
+  margin-block: 70px;
+  margin-right: 50px;
+  font-size:50px;
+  color: var(--textcolor);
+}
+.coursel-lavora{
+  margin-top: 200px;
+}
+
+.testo-carousel{
+  font-size:25px;
+}
+.vantaggi{
+  color: var(--main-dark);
+}
+
+/* Profilo */
+
+.cont-profilo{
+  margin-top: 200px;
+}
+
+.card {
+  position: relative;
+  background-color:var(--white) !important;
+  border-radius: 20px;
+}
+.card-body{
+  flex: 3 3 auto;
+  min-height: 3px;
+  padding: 2rem;
+  -webkit-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+  -moz-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+  box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+}
+.card-body-1{
+  flex: 3 3 auto;
+  min-height: 3px;
+  padding: 2rem;
+}
+
+.gutters-sm {
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.gutters-sm .col, .gutters-sm {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.text-secondary{
+  font-size: 22px;
+}
+/* FILTER ANNUNCI */
+
+.box-category{
+  font-size: 22px;
+}
+.icheck{
+  width: 23px;
+  height: 23px;
+}
+.color-f{
+  color: var(--main-dark);
+}
+.cont-annunci{
+  float: right;
+}
+.filters{
+  margin-left: 50px;
+  padding-left: 20px;
+  border: 2px solid var(--main-darkplus);
+  -webkit-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+  -moz-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+  box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+
+}
+.button-filters{
+  background-color:var(--main-darkplus);
+
+}
+.annunci-card{
+  margin-top: 130px;
+  letter-spacing: 5px;
+  color:  var(--textcolor);
+  text-shadow:1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+.btn-crea{
+  font-size: 23px;
+}
+.cont-dettagli{
+  background-color:var( --white) !important;
+  margin-top: 10%;
+  padding-bottom: 70px;
+  border-radius: 10px;
+  -webkit-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+    -moz-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+    box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+
+}
+.cont-revisionare{
+  margin-top: 10%;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  background-color:var( --white) !important;
+  -webkit-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+    -moz-box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+    box-shadow: 26px 28px 24px 0px rgba(90, 77, 66, 0.9);
+}
+.spantype{
+  top: 13px;
+  left: 13px;
+  color: white;
+  border-radius: 10px;
+  padding: 3px 8px;
+}
+.titolo-mieiAnnunci{
+  letter-spacing: 5px;
+  color:  var(--textcolor);
+  text-shadow:1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  margin-bottom: 50px;
+}
+
+
+

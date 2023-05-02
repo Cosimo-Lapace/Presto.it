@@ -1,0 +1,24 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "axios": "^1.1.2",
+        "bootstrap": "^5.2.3",
+        "laravel-vite-plugin": "^0.7.2",
+        "sass": "^1.56.1",
+        "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "aos": "^2.3.4",
+        "bootstrap": "^5.2.3",
+        "bootstrap-icons": "^1.10.3",
+        "flag-icon-css": "^4.1.7",
+        "icons": "^1.0.0",
+        "laravel-mix-scrollmagic-gsap": "^0.1.1",
+        "update": "^0.7.4"
+    }
+}
